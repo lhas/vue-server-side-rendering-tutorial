@@ -18,7 +18,8 @@ const routes = [
 // You can pass in additional options here, but let's
 // keep it simple for now.
 const router = new VueRouter({
-  routes // short for routes: routes
+  routes,
+  mode: 'history'
 })
 
 /* eslint-disable no-new */
