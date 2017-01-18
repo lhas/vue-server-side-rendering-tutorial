@@ -11,7 +11,7 @@ Vue.use(VueRouter)
 const routes = [
   { path: '/', redirect: '/foo' },
   { path: '/foo', component: Foo },
-  { path: '/bar', template: Bar }
+  { path: '/bar', component: Bar }
 ]
 
 // 3. Create the router instance and pass the `routes` option
